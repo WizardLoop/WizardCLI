@@ -45,8 +45,8 @@ $cli->art("🌟🌍🚀✨");
 
 // Multilingual banners
 $cli = new WizardCLI\WizardCLI(['theme' => 'wizard']);
-$cli->color("Multilingual banner (Hebrew):", "magenta+bold");
-$cli->art("קוסם בטרמינל");
+$cli->color("Multilingual banner (Loop):", "magenta+bold");
+$cli->art("WizardLoop!");
 
 $cli->color("Multilingual banner (Russian):", "cyan+bold");
 $cli->art("ВОЛШЕБНИК");
