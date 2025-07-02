@@ -54,7 +54,7 @@ $cli->table(["Name", "Spell"], [
 ]);
 $cli->progressBar(100, "Created By Wizard Loop | @WizardLoop");
 for ($i = 1; $i <= 100; $i++) {
-    usleep(1);
+    usleep(40000);
     $cli->progressAdvance(); 
 }
 $cli->progressFinish();
