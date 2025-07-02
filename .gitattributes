@@ -1,0 +1,5 @@
+*.php text
+*.md text
+*.yml text
+*.json text
+*.lock text
