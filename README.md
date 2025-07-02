@@ -52,7 +52,12 @@ $cli->table(["Name", "Spell"], [
     ["Merlin", "Invisibility"],
     ["Morgana", "Fireball"]
 ]);
-$cli->progressBar(100, "Casting spell...");
+$cli->progressBar(100, "Created By Wizard Loop | @WizardLoop");
+for ($i = 1; $i <= 100; $i++) {
+    usleep(1);
+    $cli->progressAdvance(); 
+}
+$cli->progressFinish();
 ```
 
 ---
