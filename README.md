@@ -99,12 +99,6 @@ composer test
 Pull requests, issues, and magical ideas are very welcome!  
 See [CONTRIBUTING.md](.github/CONTRIBUTING.md) for details.
 
-<p align="center">
-  <a href="https://github.com/WizardLoop/WizardCLI/issues/new?assignees=&labels=bug&template=bug_report.yml"><img src="https://img.shields.io/badge/-Report%20Bug-red?style=for-the-badge" alt="Report Bug"></a>
-  <a href="https://github.com/WizardLoop/WizardCLI/issues/new?assignees=&labels=enhancement&template=feature_request.yml"><img src="https://img.shields.io/badge/-Request%20Feature-blueviolet?style=for-the-badge" alt="Request Feature"></a>
-  <a href="https://github.com/WizardLoop/WizardCLI/issues/new?assignees=&labels=question&template=improvement_question.yml"><img src="https://img.shields.io/badge/-Ask%20Question-yellow?style=for-the-badge" alt="Ask Question"></a>
-</p>
-
 ---
 
 ## 🧙‍♂️ Connect
