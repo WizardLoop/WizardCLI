@@ -14,16 +14,13 @@
     </testsuites>
 
     <coverage>
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
         <report>
             <clover outputFile="tests/coverage/clover.xml"/>
         </report>
     </coverage>
-
-    <filter>
-        <whitelist processUncoveredFiles="true">
-            <directory suffix=".php">src</directory>
-        </whitelist>
-    </filter>
 
     <php>
         <ini name="error_reporting" value="-1"/>
