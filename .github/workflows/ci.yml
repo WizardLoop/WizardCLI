@@ -1,0 +1,38 @@
+name: ✨ Build & Test
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    name: "PHP ${{ matrix.php-versions }}"
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        php-versions: ['8.1', '8.2', '8.3']
+
+    steps:
+      - name: 📁 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🛠 Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-versions }}
+          coverage: xdebug
+
+      - name: 📦 Install dependencies
+        run: composer install --prefer-dist --no-interaction --no-progress
+
+      - name: 🧪 Run tests
+        run: vendor/bin/phpunit --coverage-clover=tests/coverage/clover.xml
+
+      - name: ☂️ Upload code coverage (artifact)
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-${{ matrix.php-versions }}
+          path: tests/coverage/clover.xml
