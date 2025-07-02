@@ -12,11 +12,13 @@ class WizardCLI {
     public Table $table;
     public ProgressBar $progress;
     private array $themes = [
-        'wizard'   => ['primary' => 'magenta', 'accent' => 'cyan', 'banner' => 'yellow+bold'],
-        'sorcerer' => ['primary' => 'blue',    'accent' => 'white', 'banner' => 'blue+bold'],
-        'dark'     => ['primary' => 'gray',    'accent' => 'magenta', 'banner' => 'gray+bold'],
-        'gold'     => ['primary' => 'yellow',  'accent' => 'white', 'banner' => 'yellow+bold'],
+    'wizard'   => ['primary' => 'magenta', 'accent' => 'cyan', 'banner' => 'yellow+bold'],
+    'sorcerer' => ['primary' => 'blue',    'accent' => 'white', 'banner' => 'blue+bold'],
+    'dark'     => ['primary' => 'gray',    'accent' => 'magenta', 'banner' => 'gray+bold'],
+    'gold'     => ['primary' => 'yellow',  'accent' => 'white', 'banner' => 'yellow+bold'],
+    'emerald'  => ['primary' => 'green',   'accent' => 'yellow', 'banner' => 'green+bold'], 
     ];
+
     private string $theme = 'wizard';
 
     public function __construct(array $options = []) {
