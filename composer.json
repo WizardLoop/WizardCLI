@@ -1,0 +1,23 @@
+{
+    "name": "wizardloop/wizardcli",
+    "description": "🧙‍♂️ WizardCLI – Magical PHP CLI styling: Colors, Tables, Progress bars & ASCII Art for beautiful terminal UX.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WizardLoop",
+            "email": "wizardloop.t.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WizardCLI\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    }
+}
