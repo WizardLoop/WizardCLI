@@ -6,6 +6,7 @@
   <a href="tests/WizardCLITest.php"><img src="https://img.shields.io/badge/tests-PHPUnit-informational" alt="Tests"></a>
   <a href="https://packagist.org/packages/wizardloop/envloader"><img src="https://img.shields.io/packagist/v/wizardloop/envloader?color=blue" alt="Packagist"></a>
   <a href="https://packagist.org/packages/wizardloop/envloader"><img src="https://img.shields.io/packagist/dt/wizardloop/envloader?color=blue" alt="Packagist Downloads"></a>
+  <a href="https://github.com/WizardLoop/WizardCLI"><img src="https://github.com/WizardLoop/WizardCLI/actions/workflows/ci.yml/badge.svg" alt="Build Status"></a>
 </p>
 
 ---
