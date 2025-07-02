@@ -2,13 +2,10 @@
 <phpunit
     bootstrap="tests/phpunit.php"
     colors="true"
-    stopOnFailure="false"
-    stopOnError="false"
     failOnWarning="true"
     failOnRisky="true"
     beStrictAboutTestsThatDoNotTestAnything="true"
     beStrictAboutOutputDuringTests="true"
-    verbose="true"
 >
     <testsuites>
         <testsuite name="WizardCLI Test Suite">
@@ -16,16 +13,12 @@
         </testsuite>
     </testsuites>
 
-    <coverage processUncoveredFiles="true">
-        <include>
-            <directory>src</directory>
-        </include>
+    <coverage>
+        <directory>src</directory>
+        <report>
+            <clover outputFile="tests/coverage/clover.xml"/>
+        </report>
     </coverage>
-
-    <logging>
-        <log type="coverage-html" target="tests/coverage" />
-        <log type="junit" target="tests/junit.xml" />
-    </logging>
 
     <php>
         <ini name="error_reporting" value="-1"/>
