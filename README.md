@@ -1,5 +1,5 @@
 <h1 align="center">🧙‍♂️✨ WizardCLI</h1>
-<p align="center"><b>The magical PHP CLI toolkit — add color, tables, progress bars & ASCII Art to your terminal!</b></p>
+<p align="center"><b>The magical PHP CLI toolkit - add color, tables, progress bars & ASCII Art to your terminal!</b></p>
 
 <p align="center">
   <a href="https://github.com/WizardLoop/WizardCLI/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License"></a>
@@ -20,12 +20,12 @@
 
 ## ✨ Features
 
-- 🌈 **Colors & Styles** — Print colored and styled text in seconds
-- 🪄 **ASCII Art** — Wizard banners & magical terminal art
-- 📊 **Tables** — Clean, beautiful table rendering for your data
-- ⏳ **Progress Bars** — Show task progress with charm and multiple themes
-- 🎩 **Multiple Themes** — Wizard, Sorcerer, Dark, Gold & more
-- 💎 **Modern API** — Easy to use, works everywhere PHP runs
+- 🌈 **Colors & Styles** Print colored and styled text in seconds
+- 🪄 **ASCII Art** Wizard banners & magical terminal art
+- 📊 **Tables** Clean, beautiful table rendering for your data
+- ⏳ **Progress Bars** Show task progress with charm and multiple themes
+- 🎩 **Multiple Themes** Wizard, Sorcerer, Dark, Gold & more
+- 💎 **Modern API** Easy to use, works everywhere PHP runs
 
 ---
 
